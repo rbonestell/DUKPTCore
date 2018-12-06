@@ -1,0 +1,27 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DUKPTCore", "DUKPTCore\DUKPTCore.csproj", "{24FB7F6C-B6A8-4F23-9BD8-0BAFFBFC6DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DUKPTCoreTests", "DUKPTCoreTests\DUKPTCoreTests.csproj", "{6EA6CBD9-F526-451D-AF70-44E6DBCF09CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24FB7F6C-B6A8-4F23-9BD8-0BAFFBFC6DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FB7F6C-B6A8-4F23-9BD8-0BAFFBFC6DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FB7F6C-B6A8-4F23-9BD8-0BAFFBFC6DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FB7F6C-B6A8-4F23-9BD8-0BAFFBFC6DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA6CBD9-F526-451D-AF70-44E6DBCF09CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA6CBD9-F526-451D-AF70-44E6DBCF09CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA6CBD9-F526-451D-AF70-44E6DBCF09CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA6CBD9-F526-451D-AF70-44E6DBCF09CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		description = TDES DUKPT implementation in .NET Core
+		version = 1.0
+	EndGlobalSection
+EndGlobal

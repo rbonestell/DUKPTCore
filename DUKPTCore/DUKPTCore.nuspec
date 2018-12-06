@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DUKPTCore</id>
+    <version>1.0.0</version>
+    <title>DUKPTCore</title>
+    <authors>rbonestell</authors>
+    <licenseUrl>https://github.com/rbonestell/DUKPTCore/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/rbonestell/DUKPTCore</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .NET Core implementation of TDES DUKPT, both PIN and Data variants.</description>
+    <tags>DUKPT TDES 3DES ANSI ANS x9.24 Core</tags>
+  </metadata>
+</package>
