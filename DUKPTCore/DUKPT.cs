@@ -72,15 +72,13 @@ namespace DUKPTCore
             BigInteger ksnBigInt = ksn.HexToBigInteger();
             BigInteger ipek = CreateIpek(ksnBigInt, bdk.HexToBigInteger());
             BigInteger sessionKey;
-            switch (dukptVariant)
+            if (dukptVariant == DUKPTVariant.Data)
             {
-                case DUKPTVariant.Data:
-                    sessionKey = CreateSessionKeyDEK(ipek, ksnBigInt);
-                    break;
-                default:
-                    sessionKey = CreateSessionKeyPEK(ipek, ksnBigInt);
-                    break;
-
+                sessionKey = CreateSessionKeyDEK(ipek, ksnBigInt);
+            }
+            else
+            {
+                sessionKey = CreateSessionKeyPEK(ipek, ksnBigInt);
             }
             return sessionKey;
         }
@@ -99,7 +97,8 @@ namespace DUKPTCore
             {
                 if ((shiftReg & ksn & Reg3Mask) > 0)
                 {
-                    curKey = GenerateKey(curKey, ksnReg |= shiftReg);
+                    ksnReg = ksnReg | shiftReg;
+                    curKey = GenerateKey(curKey, ksnReg);
                 }
             }
             return curKey;
