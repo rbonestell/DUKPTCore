@@ -77,7 +77,6 @@ namespace DUKPTCore
                 case DUKPTVariant.Data:
                     sessionKey = CreateSessionKeyDEK(ipek, ksnBigInt);
                     break;
-                case DUKPTVariant.PIN:
                 default:
                     sessionKey = CreateSessionKeyPEK(ipek, ksnBigInt);
                     break;
