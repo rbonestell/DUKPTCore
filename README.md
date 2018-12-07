@@ -1,4 +1,4 @@
-# DUKPTCore
+# DUKPTCore [![Codacy Badge](https://api.codacy.com/project/badge/Grade/41d82bb687df4273adf3698f8c86deca)](https://www.codacy.com/app/rbonestell/DUKPTCore?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rbonestell/DUKPTCore&amp;utm_campaign=Badge_Grade) [![Build status](https://ci.appveyor.com/api/projects/status/480s1yjp2x7iqrb4/branch/development?svg=true)](https://ci.appveyor.com/project/rbonestell/dukptcore/branch/development)
 A .NET Core implementation of TDES DUKPT, both PIN and Data variants.
 
  ### About DUKPTCore
