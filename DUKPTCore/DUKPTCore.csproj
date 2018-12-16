@@ -3,7 +3,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <ReleaseVersion>1.0.1</ReleaseVersion>
     <Authors>rbonestell</Authors>
-    <license>https://github.com/rbonestell/DUKPTCore/blob/master/LICENSE</license>
+    <PackageLicenseUrl>https://github.com/rbonestell/DUKPTCore/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/rbonestell/DUKPTCore</PackageProjectUrl>
     <Summary>A .NET Core implementation of TDES DUKPT, both PIN and Data variants.</Summary>
     <Title>DUKPTCore</Title>
