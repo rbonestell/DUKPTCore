@@ -1,16 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <ReleaseVersion>1.0.0</ReleaseVersion>
+    <ReleaseVersion>1.0.1</ReleaseVersion>
     <Authors>rbonestell</Authors>
-    <PackageLicenseUrl>https://github.com/rbonestell/DUKPTCore/blob/master/LICENSE</PackageLicenseUrl>
+    <license>https://github.com/rbonestell/DUKPTCore/blob/master/LICENSE</license>
     <PackageProjectUrl>https://github.com/rbonestell/DUKPTCore</PackageProjectUrl>
     <Summary>A .NET Core implementation of TDES DUKPT, both PIN and Data variants.</Summary>
     <Title>DUKPTCore</Title>
     <RepositoryUrl>https://github.com/rbonestell/DUKPTCore</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageId>DUKPTCore</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Description>A .NET Core implementation of TDES DUKPT, both PIN and Data variants.</Description>
     <Owners>rbonestell</Owners>
     <PackageTags>DUKPT TDES 3DES ANSI ANS x9.24 Core</PackageTags>
@@ -20,6 +20,5 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Security.Cryptography.Primitives" Version="4.3.0" />
-    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
   </ItemGroup>
 </Project>
