@@ -174,7 +174,7 @@ namespace DUKPTCore
         #region Public Methods
 
         /// <summary>
-        /// Encrypt data using TDES DUKPTCore.
+        /// Encrypt data using TDES DUKPT.
         /// </summary>
         /// <param name="bdk">Base Derivation Key</param>
         /// <param name="ksn">Key Serial Number</param>
@@ -201,7 +201,7 @@ namespace DUKPTCore
         }
 
         /// <summary>
-        /// Decrypt data using TDES DUKPTCore.
+        /// Decrypt data using TDES DUKPT.
         /// </summary>
         /// <param name="bdk">Base Derivation Key</param>
         /// <param name="ksn">Key Serial Number</param>
