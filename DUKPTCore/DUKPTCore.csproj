@@ -13,7 +13,7 @@
     <PackageVersion>1.1.0</PackageVersion>
     <Description>A .NET Standard implementation of TDES DUKPT, both PIN and Data variants.</Description>
     <Owners>rbonestell</Owners>
-    <PackageTags>DUKPT TDES 3DES ANSI ANS x9.24 Core</PackageTags>
+    <PackageTags>DUKPT TDES 3DES ANSI ANS x9.24 Core Standard</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType></DebugType>
