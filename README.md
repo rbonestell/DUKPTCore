@@ -1,11 +1,11 @@
 # DUKPTCore [![Code Quality](https://img.shields.io/codacy/grade/41d82bb687df4273adf3698f8c86deca.svg)](https://www.codacy.com/app/rbonestell/DUKPTCore?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rbonestell/DUKPTCore&amp;utm_campaign=Badge_Grade) [![Build Status](https://img.shields.io/appveyor/ci/rbonestell/DUKPTCore.svg)](https://ci.appveyor.com/project/rbonestell/dukptcore/branch/development) [![NuGet](https://img.shields.io/nuget/v/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/) [![NuGet Downloads](https://img.shields.io/nuget/dt/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/)
 
-A .NET Core implementation of TDES DUKPT, both PIN and Data variants.
+A .NET Standard implementation of TDES DUKPT, both PIN and Data variants.
 
  ### About DUKPTCore
- You'll find DUKPTCore quite useful if you're working on financial services applications with the need to decrypt data using TDES (3DES, TDEA, triple-DES, etc) DUKPT (derived unique key per transaction), such as PIN or credit card account data.
+ You'll find this library useful if you're working on financial services applications with the need to decrypt data using TDES (3DES, TDEA, triple-DES, etc) DUKPT (derived unique key per transaction), such as PIN or credit card account data.
  
- DUKPTCore was adapted from [sgbj's Dukpt.NET project](https://github.com/sgbj/Dukpt.NET) and ported to .NET Core.
+ DUKPTCore was adapted from [sgbj's Dukpt.NET project](https://github.com/sgbj/Dukpt.NET) and ported to .NET Standard.
  
  ### Examples
  Encrypting data:
