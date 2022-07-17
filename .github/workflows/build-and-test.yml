@@ -1,10 +1,12 @@
 name: Build and Test
 
 on:
-  push:
-    branches: [ "development" ]
   pull_request:
-    branches: [ "development" ]
+    branches: [ "development", "master" ]
+    paths:
+      - 'DUKPTCore/**'
+      - 'DUKPTCoreTests/**'
+      - 'DUKPTCore.sln'
 
 jobs:
   build:
