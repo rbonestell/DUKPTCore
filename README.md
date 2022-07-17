@@ -1,4 +1,4 @@
-# DUKPTCore [![Code Quality](https://img.shields.io/codefactor/grade/github/rbonestell/dukptcore)](https://www.codefactor.io/repository/github/rbonestell/dukptcore) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rbonestell/dukptcore/build-and-test) [![NuGet](https://img.shields.io/nuget/v/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/) [![NuGet Downloads](https://img.shields.io/nuget/dt/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/)
+# DUKPTCore [![Code Quality](https://img.shields.io/codefactor/grade/github/rbonestell/dukptcore)](https://www.codefactor.io/repository/github/rbonestell/dukptcore) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rbonestell/dukptcore/build-and-test)](https://github.com/rbonestell/DUKPTCore/actions/workflows/build-and-test.yml) [![NuGet](https://img.shields.io/nuget/v/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/) [![NuGet Downloads](https://img.shields.io/nuget/dt/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/)
 
 A .NET Standard implementation of TDES DUKPT, both PIN and Data variants.
 
