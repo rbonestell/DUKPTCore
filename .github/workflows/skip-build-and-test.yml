@@ -1,0 +1,14 @@
+name: Skip Build
+
+on:
+   pull_request:
+     paths-ignore:
+      - 'DUKPTCore/**'
+      - 'DUKPTCoreTests/**'
+      - 'DUKPTCore.sln'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "No build required!"'

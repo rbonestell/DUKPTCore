@@ -1,4 +1,4 @@
-# DUKPTCore [![Code Quality](https://img.shields.io/codacy/grade/41d82bb687df4273adf3698f8c86deca.svg)](https://www.codacy.com/app/rbonestell/DUKPTCore?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rbonestell/DUKPTCore&amp;utm_campaign=Badge_Grade) [![Build Status](https://img.shields.io/appveyor/ci/rbonestell/DUKPTCore.svg)](https://ci.appveyor.com/project/rbonestell/dukptcore/branch/development) [![NuGet](https://img.shields.io/nuget/v/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/) [![NuGet Downloads](https://img.shields.io/nuget/dt/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/)
+# DUKPTCore [![Code Quality](https://img.shields.io/codefactor/grade/github/rbonestell/dukptcore)](https://www.codefactor.io/repository/github/rbonestell/dukptcore) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rbonestell/DUKPTCore/Build%20and%20Test)](https://github.com/rbonestell/DUKPTCore/actions/workflows/build-and-test.yml) [![NuGet](https://img.shields.io/nuget/v/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/) [![NuGet Downloads](https://img.shields.io/nuget/dt/DUKPTCore.svg)](https://www.nuget.org/packages/DUKPTCore/)
 
 A .NET Standard implementation of TDES DUKPT, both PIN and Data variants.
 
@@ -33,6 +33,6 @@ A .NET Standard implementation of TDES DUKPT, both PIN and Data variants.
 ### Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
+3. Commit your changes: `git commit -am 'Added some new feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. [Submit a pull request!](https://github.com/rbonestell/DUKPTCore/pull/new/development)

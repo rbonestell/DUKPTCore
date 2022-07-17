@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <ReleaseVersion>1.1.0</ReleaseVersion>
     <Authors>rbonestell</Authors>
     <PackageLicenseUrl>https://github.com/rbonestell/DUKPTCore/blob/master/LICENSE</PackageLicenseUrl>
@@ -14,6 +14,7 @@
     <Description>A .NET Standard implementation of TDES DUKPT, both PIN and Data variants.</Description>
     <Owners>rbonestell</Owners>
     <PackageTags>DUKPT TDES 3DES ANSI ANS x9.24 Core Standard</PackageTags>
+    <Configurations>Release;Debug</Configurations>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType></DebugType>
