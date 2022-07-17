@@ -5,7 +5,7 @@
     <Authors>rbonestell</Authors>
     <PackageLicenseUrl>https://github.com/rbonestell/DUKPTCore/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/rbonestell/DUKPTCore</PackageProjectUrl>
-    <Summary>A .NET Core implementation of TDES DUKPT, both PIN and Data variants.</Summary>
+    <Summary>A .NET Standard implementation of TDES DUKPT, both PIN and Data variants.</Summary>
     <Title>DUKPTCore</Title>
     <RepositoryUrl>https://github.com/rbonestell/DUKPTCore</RepositoryUrl>
     <RepositoryType>git</RepositoryType>

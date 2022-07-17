@@ -71,16 +71,9 @@ namespace DUKPTCore
         {
             BigInteger ksnBigInt = ksn.HexToBigInteger();
             BigInteger ipek = CreateIpek(ksnBigInt, bdk.HexToBigInteger());
-            BigInteger sessionKey;
-            if (dukptVariant == DUKPTVariant.Data)
-            {
-                sessionKey = CreateSessionKeyDEK(ipek, ksnBigInt);
-            }
-            else
-            {
-                sessionKey = CreateSessionKeyPEK(ipek, ksnBigInt);
-            }
-            return sessionKey;
+            return (dukptVariant == DUKPTVariant.Data)
+                 ?  CreateSessionKeyDEK(ipek, ksnBigInt)
+                 :  CreateSessionKeyPEK(ipek, ksnBigInt);
         }
 
         /// <summary>
