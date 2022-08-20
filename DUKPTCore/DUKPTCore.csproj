@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <ReleaseVersion>1.1.0</ReleaseVersion>
     <Authors>rbonestell</Authors>
     <PackageLicenseUrl>https://github.com/rbonestell/DUKPTCore/blob/master/LICENSE</PackageLicenseUrl>
